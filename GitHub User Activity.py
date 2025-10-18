@@ -54,11 +54,11 @@ try:
         formater = ((repo_name_len + date_time_len + 15) // 4)
 
         if event_type == "WatchEvent":
-            print("^^  " * formater, f"\nStarred {repo_name} | {date_time}")
+            print("^^  " * formater, f"\nStarred {repo_name} | {date_time}", "\n", ":  :" * formater)
         elif event_type == "PushEvent":
-            print(f"^^  " * formater, f"\nPushed commits to {repo_name} | {date_time}")
+            print(f"^^  " * formater, f"\nPushed commits to {repo_name} | {date_time}", "\n", ":  :" * formater)
         else:
-            print("^^  " * formater, f"\nDid {event_type} on {repo_name} | {date_time}")
+            print("^^  " * formater, f"\nDid {event_type} on {repo_name} | {date_time}", "\n", ":  :" * formater)
 
     once =+ 1 #just to stop the app after one succsessfull use
 
