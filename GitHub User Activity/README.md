@@ -1,4 +1,4 @@
-[https://github.com/Meloudas/Roadsh](https://roadmap.sh/projects/github-user-activity)
+https://roadmap.sh/projects/github-user-activity
 
 run the app
 insert a authenticated username
